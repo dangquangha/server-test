@@ -3,3 +3,6 @@ os: ubuntu
 files:
   - source: /index.html
     destination: /var/www/test-server/
+hooks:
+  BeforeInstall:
+  ApplicationStop:
